@@ -1,0 +1,19 @@
+<div>
+    Main PAGE
+    <p>Access_Token: {{access_token}}</p>
+    <p>Refresh Token: {{refresh_token}}</p>
+    <p>Expires In: {{expires_in}}</p>
+</div>
+
+<script type='text/javascript'>
+    let access_token = '{{access_token}}';
+    let refresh_token = '{{refresh_token}}';
+    let expires_in = '{{expires_in}}';
+
+    localStorage.setItem('access_token', access_token);
+    localStorage.setItem('refresh_token', refresh_token);
+    localStorage.setItem('expires_in', expires_in);
+
+    
+
+</script>

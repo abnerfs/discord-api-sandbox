@@ -1,0 +1,19 @@
+{
+  "name": "discord-api-sandbox",
+  "version": "1.0.0",
+  "description": "Testando a API do discord sem compromisso",
+  "main": "index.js",
+  "repository": "https://github.com/abnerfs/discord-api-sandbox",
+  "author": "Abner Ferreira Santos <abnerfs@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.3.1",
+    "node-fetch": "^2.0.0",
+    "query-string": "^5.1.0",
+    "random-string": "^0.2.0"
+  }
+}
